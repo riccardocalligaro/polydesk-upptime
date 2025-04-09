@@ -13,8 +13,8 @@ sites:
       - 404
 
 status-website:
-  theme: dark
   themeUrl: https://status.polydesk.app/theme.css
+  favicon: https://polydesk.app/favicon.ico
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.polydesk.app
