@@ -1,7 +1,7 @@
 :root {
-  --body-background-color: #001716;
-  --body-text-color: #f0ffff;
-  --card-background-color: #002b29;
-  --nav-background-color: #002b29;
-  --nav-border-bottom-color: #015450;
+  --body-background-color: #0b1e30; /* Dark blue-ish background */
+  --body-text-color: #f0f8ff; /* Light text for contrast */
+  --card-background-color: #122b45; /* Slightly lighter for cards */
+  --nav-background-color: #122b45; /* Same as cards for consistency */
+  --nav-border-bottom-color: #339af0; /* Main theme color for accent */
 }

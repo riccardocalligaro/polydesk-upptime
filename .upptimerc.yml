@@ -21,4 +21,3 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://polydesk.app/polydesk_cirlce.svg
   name: Polydesk
-  introTitle: "Questa pagina mostra in tempo reale lo stato dei siti e dei servizi gestiti da Polydesk"
