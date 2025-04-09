@@ -5,10 +5,19 @@ repo: polydesk-upptime # The name of this repository
 sites:
   - name: Sito dimostrativo
     url: https://polydesk.app/
-  - name: Demo frontend
+  - name: Demo
     url: https://demo.polydesk.app/
-  - name: Demo backend
+  - name: Demo API
     url: https://demo.polydesk.app/api/v1/
+    expectedStatusCodes:
+      - 404
+  # gruppo paim
+  - name: Gruppo Paim
+    icon: https://www.gruppopaim.it/img/favicon.png
+    url: https://gruppopaim.polydesk.app/
+  - name: Gruppo Paim API
+    icon: https://www.gruppopaim.it/img/favicon.png
+    url: https://gruppopaim.polydesk.app/api/v1/
     expectedStatusCodes:
       - 404
 
