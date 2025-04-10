@@ -20,6 +20,15 @@ sites:
     url: https://gruppopaim.polydesk.app/api/v1/
     expectedStatusCodes:
       - 404
+  # radius lab
+  - name: Radius Lab
+    icon: https://status.polydesk.app/radiuslab.ico
+    url: https://radiuslab.polydesk.app/
+  - name: Radius Lab API
+    icon: https://status.polydesk.app/radiuslab.ico
+    url: https://radiuslab.polydesk.app/api/v1/
+    expectedStatusCodes:
+      - 404
 
 status-website:
   themeUrl: https://status.polydesk.app/custom-status.css
