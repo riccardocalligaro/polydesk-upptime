@@ -1,7 +1,7 @@
 url: https://gruppopaim.polydesk.app/api/v1/
-status: down
-code: 502
-responseTime: 125
-lastUpdated: 2025-04-12T18:37:55.311Z
+status: up
+code: 404
+responseTime: 175
+lastUpdated: 2025-04-12T18:48:42.956Z
 startTime: 2025-04-09T05:00:22.781Z
 generator: Upptime <https://github.com/upptime/upptime>
