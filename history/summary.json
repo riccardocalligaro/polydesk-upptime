@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 212,
-    "timeDay": 331,
-    "timeWeek": 232,
-    "timeMonth": 212,
-    "timeYear": 212,
+    "time": 213,
+    "timeDay": 229,
+    "timeWeek": 236,
+    "timeMonth": 213,
+    "timeYear": 213,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 524,
-    "timeDay": 577,
-    "timeWeek": 555,
+    "time": 526,
+    "timeDay": 672,
+    "timeWeek": 562,
     "timeMonth": 531,
-    "timeYear": 524,
+    "timeYear": 526,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 141,
-    "timeDay": 189,
-    "timeWeek": 162,
+    "time": 142,
+    "timeDay": 181,
+    "timeWeek": 156,
     "timeMonth": 144,
-    "timeYear": 141,
+    "timeYear": 142,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 516,
-    "timeDay": 583,
-    "timeWeek": 566,
-    "timeMonth": 534,
-    "timeYear": 516,
+    "time": 519,
+    "timeDay": 676,
+    "timeWeek": 562,
+    "timeMonth": 533,
+    "timeYear": 519,
     "dailyMinutesDown": {}
   },
   {
@@ -82,11 +82,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 139,
-    "timeDay": 148,
-    "timeWeek": 146,
-    "timeMonth": 142,
-    "timeYear": 139,
+    "time": 140,
+    "timeDay": 187,
+    "timeWeek": 148,
+    "timeMonth": 143,
+    "timeYear": 140,
     "dailyMinutesDown": {}
   },
   {
@@ -95,18 +95,19 @@
     "icon": "https://status.polydesk.app/radiuslab.ico",
     "slug": "radius-lab",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.08%",
+    "uptimeDay": "48.96%",
+    "uptimeWeek": "92.71%",
+    "uptimeMonth": "98.32%",
+    "uptimeYear": "99.08%",
     "time": 512,
-    "timeDay": 489,
-    "timeWeek": 525,
-    "timeMonth": 514,
+    "timeDay": 459,
+    "timeWeek": 507,
+    "timeMonth": 511,
     "timeYear": 512,
     "dailyMinutesDown": {
-      "2025-06-04": 0
+      "2025-06-05": 80,
+      "2025-06-04": 655
     }
   },
   {
@@ -115,18 +116,19 @@
     "icon": "https://status.polydesk.app/radiuslab.ico",
     "slug": "radius-lab-api",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 142,
-    "timeDay": 226,
-    "timeWeek": 169,
-    "timeMonth": 146,
-    "timeYear": 142,
+    "uptime": "99.08%",
+    "uptimeDay": "48.96%",
+    "uptimeWeek": "92.71%",
+    "uptimeMonth": "98.32%",
+    "uptimeYear": "99.08%",
+    "time": 146,
+    "timeDay": 319,
+    "timeWeek": 192,
+    "timeMonth": 152,
+    "timeYear": 146,
     "dailyMinutesDown": {
-      "2025-06-04": 0
+      "2025-06-05": 80,
+      "2025-06-04": 655
     }
   }
 ]
