@@ -22,10 +22,10 @@
     "url": "https://demo.polydesk.app/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 527,
@@ -33,16 +33,18 @@
     "timeWeek": 571,
     "timeMonth": 534,
     "timeYear": 527,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-22": 2
+    }
   },
   {
     "name": "Demo API",
     "url": "https://demo.polydesk.app/api/v1/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -51,7 +53,9 @@
     "timeWeek": 173,
     "timeMonth": 151,
     "timeYear": 144,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-22": 0
+    }
   },
   {
     "name": "Gruppo Paim",
