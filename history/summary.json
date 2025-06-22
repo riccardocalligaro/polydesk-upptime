@@ -22,19 +22,19 @@
     "url": "https://demo.polydesk.app/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.51%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.65%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "100.00%",
     "time": 638,
     "timeDay": 4884,
     "timeWeek": 1650,
     "timeMonth": 797,
     "timeYear": 638,
     "dailyMinutesDown": {
-      "2025-06-22": 7
+      "2025-06-22": 5
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "https://demo.polydesk.app/api/v1/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo-api",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "99.61%",
-    "uptimeWeek": "99.94%",
+    "status": "down",
+    "uptime": "100.00%",
+    "uptimeDay": "99.76%",
+    "uptimeWeek": "99.97%",
     "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptimeYear": "100.00%",
     "time": 145,
     "timeDay": 250,
     "timeWeek": 179,
     "timeMonth": 153,
     "timeYear": 145,
     "dailyMinutesDown": {
-      "2025-06-22": 6
+      "2025-06-22": 4
     }
   },
   {
@@ -62,10 +62,10 @@
     "url": "https://gruppopaim.polydesk.app/",
     "icon": "https://www.gruppopaim.it/img/favicon.png",
     "slug": "gruppo-paim",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.86%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 523,
@@ -73,16 +73,18 @@
     "timeWeek": 556,
     "timeMonth": 535,
     "timeYear": 523,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-22": 2
+    }
   },
   {
     "name": "Gruppo Paim API",
     "url": "https://gruppopaim.polydesk.app/api/v1/",
     "icon": "https://www.gruppopaim.it/img/favicon.png",
     "slug": "gruppo-paim-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -91,7 +93,9 @@
     "timeWeek": 157,
     "timeMonth": 146,
     "timeYear": 142,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-06-22": 0
+    }
   },
   {
     "name": "Euromedica",
