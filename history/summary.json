@@ -22,19 +22,19 @@
     "url": "https://demo.polydesk.app/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.88%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 527,
-    "timeDay": 566,
-    "timeWeek": 571,
-    "timeMonth": 534,
-    "timeYear": 527,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.51%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
+    "time": 638,
+    "timeDay": 4884,
+    "timeWeek": 1650,
+    "timeMonth": 797,
+    "timeYear": 638,
     "dailyMinutesDown": {
-      "2025-06-22": 2
+      "2025-06-22": 7
     }
   },
   {
@@ -42,19 +42,19 @@
     "url": "https://demo.polydesk.app/api/v1/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo-api",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 144,
-    "timeDay": 277,
-    "timeWeek": 173,
-    "timeMonth": 151,
-    "timeYear": 144,
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "99.61%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
+    "time": 145,
+    "timeDay": 250,
+    "timeWeek": 179,
+    "timeMonth": 153,
+    "timeYear": 145,
     "dailyMinutesDown": {
-      "2025-06-22": 0
+      "2025-06-22": 6
     }
   },
   {
