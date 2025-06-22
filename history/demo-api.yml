@@ -1,7 +1,7 @@
 url: https://demo.polydesk.app/api/v1/
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-06-22T14:36:36.282Z
+status: up
+code: 404
+responseTime: 126
+lastUpdated: 2025-06-22T15:08:49.629Z
 startTime: 2025-04-09T05:00:21.676Z
 generator: Upptime <https://github.com/upptime/upptime>
