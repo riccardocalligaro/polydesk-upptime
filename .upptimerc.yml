@@ -5,28 +5,69 @@ repo: polydesk-upptime # The name of this repository
 sites:
   - name: Sito dimostrativo
     url: https://polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
   - name: Demo
     url: https://demo.polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
   - name: Demo API
     url: https://demo.polydesk.app/api/v1/
+    headers:
+      - "User-Agent: Polydesk uptime"
+    expectedStatusCodes:
+      - 404
+  # san gaetano
+  - name: San Gaetano
+    icon: https://sangaetano.polydesk.app/favicon.ico
+    url: https://sangaetano.polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
+  - name: San Gaetano API
+    icon: https://sangaetano.polydesk.app/favicon.ico
+    url: https://sangaetano.polydesk.app/api/v1/
+    headers:
+      - "User-Agent: Polydesk uptime"
+    expectedStatusCodes:
+      - 404
+  # butterfly
+  - name: Butterfly
+    icon: https://butterfly.polydesk.app/favicon.ico
+    url: https://butterfly.polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
+
+  - name: Butterfly API
+    icon: https://butterfly.polydesk.app/favicon.ico
+    url: https://butterfly.polydesk.app/api/v1/
+    headers:
+      - "User-Agent: Polydesk uptime"
     expectedStatusCodes:
       - 404
   # gruppo paim
   - name: Gruppo Paim
     icon: https://www.gruppopaim.it/img/favicon.png
     url: https://gruppopaim.polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
   - name: Gruppo Paim API
     icon: https://www.gruppopaim.it/img/favicon.png
     url: https://gruppopaim.polydesk.app/api/v1/
+    headers:
+      - "User-Agent: Polydesk uptime"
     expectedStatusCodes:
       - 404
   # radius lab
   - name: Euromedica
     icon: https://status.polydesk.app/radiuslab.ico
     url: https://euromedica.polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
   - name: Euromedica API
     icon: https://status.polydesk.app/radiuslab.ico
     url: https://euromedica.polydesk.app/api/v1/
+    headers:
+      - "User-Agent: Polydesk uptime"
     expectedStatusCodes:
       - 404
 
