@@ -26,6 +26,18 @@ sites:
       - "User-Agent: Polydesk uptime"
     expectedStatusCodes:
       - 404
+  - name: BieloHUB
+    icon: https://bielohub.polydesk.app/favicon.ico
+    url: https://bielohub.polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
+  - name: BieloHUB API
+    icon: https://bielohub.polydesk.app/favicon.ico
+    url: https://bielohub.polydesk.app/api/v1/
+    headers:
+      - "User-Agent: Polydesk uptime"
+    expectedStatusCodes:
+      - 404
   # butterfly
   - name: Butterfly
     icon: https://butterfly.polydesk.app/favicon.ico
