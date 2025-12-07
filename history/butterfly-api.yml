@@ -1,7 +1,7 @@
 url: https://butterfly.polydesk.app/api/v1/
-status: down
+status: up
 code: 403
-responseTime: 30
-lastUpdated: 2025-12-06T23:11:31.920Z
+responseTime: 16
+lastUpdated: 2025-12-07T04:05:58.478Z
 startTime: 2025-09-25T07:54:47.138Z
 generator: Upptime <https://github.com/upptime/upptime>
