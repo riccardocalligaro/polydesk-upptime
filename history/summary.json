@@ -94,10 +94,10 @@
     "url": "https://bielohub.polydesk.app/api/v1/",
     "icon": "https://bielohub.polydesk.app/favicon.ico",
     "slug": "bielo-hub-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 17,
@@ -105,7 +105,9 @@
     "timeWeek": 14,
     "timeMonth": 17,
     "timeYear": 17,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-02-02": 1
+    }
   },
   {
     "name": "Butterfly",
