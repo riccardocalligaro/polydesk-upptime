@@ -22,18 +22,20 @@
     "url": "https://demo.polydesk.app/api/v1/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.70%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 61,
     "timeDay": 21,
     "timeWeek": 16,
     "timeMonth": 18,
     "timeYear": 61,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-02-20": 4
+    }
   },
   {
     "name": "San Gaetano",
