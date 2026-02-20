@@ -22,19 +22,19 @@
     "url": "https://demo.polydesk.app/api/v1/",
     "icon": "https://icons.duckduckgo.com/ip3/demo.polydesk.app.ico",
     "slug": "demo-api",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.70%",
-    "uptimeWeek": "99.96%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "97.11%",
+    "uptimeWeek": "99.59%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.99%",
     "time": 61,
-    "timeDay": 21,
+    "timeDay": 19,
     "timeWeek": 16,
     "timeMonth": 18,
     "timeYear": 61,
     "dailyMinutesDown": {
-      "2026-02-20": 4
+      "2026-02-20": 42
     }
   },
   {
