@@ -14,7 +14,7 @@
     "timeDay": 119,
     "timeWeek": 138,
     "timeMonth": 132,
-    "timeYear": 280,
+    "timeYear": 279,
     "dailyMinutesDown": {}
   },
   {
@@ -116,10 +116,10 @@
     "url": "https://butterfly.polydesk.app/",
     "icon": "https://butterfly.polydesk.app/favicon.ico",
     "slug": "butterfly",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 139,
@@ -127,7 +127,9 @@
     "timeWeek": 103,
     "timeMonth": 117,
     "timeYear": 139,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-10": 1
+    }
   },
   {
     "name": "Butterfly API",
@@ -162,7 +164,7 @@
     "timeDay": 96,
     "timeWeek": 109,
     "timeMonth": 112,
-    "timeYear": 233,
+    "timeYear": 232,
     "dailyMinutesDown": {}
   },
   {
@@ -180,7 +182,7 @@
     "timeDay": 4,
     "timeWeek": 11,
     "timeMonth": 11,
-    "timeYear": 51,
+    "timeYear": 50,
     "dailyMinutesDown": {}
   },
   {
