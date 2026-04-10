@@ -116,19 +116,19 @@
     "url": "https://butterfly.polydesk.app/",
     "icon": "https://butterfly.polydesk.app/favicon.ico",
     "slug": "butterfly",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.99%",
+    "uptimeDay": "98.66%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.99%",
     "time": 139,
-    "timeDay": 48,
-    "timeWeek": 103,
+    "timeDay": 81,
+    "timeWeek": 104,
     "timeMonth": 117,
     "timeYear": 139,
     "dailyMinutesDown": {
-      "2026-04-10": 1
+      "2026-04-10": 19
     }
   },
   {
