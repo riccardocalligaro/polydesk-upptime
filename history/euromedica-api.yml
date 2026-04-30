@@ -1,7 +1,7 @@
 url: https://euromedica.polydesk.app/api/v1/
-status: down
-code: 502
-responseTime: 27
-lastUpdated: 2026-04-30T15:17:08.400Z
+status: up
+code: 403
+responseTime: 5
+lastUpdated: 2026-04-30T15:50:22.541Z
 startTime: 2025-06-05T06:17:45.439Z
 generator: Upptime <https://github.com/upptime/upptime>
