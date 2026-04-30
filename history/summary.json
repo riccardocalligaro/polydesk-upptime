@@ -78,36 +78,39 @@
     "url": "https://bielohub.polydesk.app/",
     "icon": "https://bielohub.polydesk.app/favicon.ico",
     "slug": "bielo-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 133,
     "timeDay": 191,
     "timeWeek": 142,
     "timeMonth": 123,
     "timeYear": 133,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 5
+    }
   },
   {
     "name": "BieloHUB API",
     "url": "https://bielohub.polydesk.app/api/v1/",
     "icon": "https://bielohub.polydesk.app/favicon.ico",
     "slug": "bielo-hub-api",
-    "status": "up",
-    "uptime": "99.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.99%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "99.74%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.98%",
     "time": 15,
     "timeDay": 9,
     "timeWeek": 12,
     "timeMonth": 10,
     "timeYear": 15,
     "dailyMinutesDown": {
+      "2026-04-30": 4,
       "2026-02-02": 28
     }
   },
@@ -154,18 +157,20 @@
     "url": "https://gruppopaim.polydesk.app/",
     "icon": "https://www.gruppopaim.it/img/favicon.png",
     "slug": "gruppo-paim",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 229,
     "timeDay": 160,
     "timeWeek": 141,
     "timeMonth": 123,
     "timeYear": 212,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 2
+    }
   },
   {
     "name": "Gruppo Paim API",
@@ -190,9 +195,9 @@
     "url": "https://euromedica.polydesk.app/",
     "icon": "https://status.polydesk.app/radiuslab.ico",
     "slug": "euromedica",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -201,25 +206,29 @@
     "timeWeek": 93,
     "timeMonth": 107,
     "timeYear": 171,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "Euromedica API",
     "url": "https://euromedica.polydesk.app/api/v1/",
     "icon": "https://status.polydesk.app/radiuslab.ico",
     "slug": "euromedica-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 32,
-    "timeDay": 5,
-    "timeWeek": 10,
-    "timeMonth": 10,
+    "timeDay": 16,
+    "timeWeek": 12,
+    "timeMonth": 11,
     "timeYear": 32,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "Sito dimostrativo",
