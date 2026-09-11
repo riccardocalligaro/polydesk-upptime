@@ -67,7 +67,7 @@
     "timeMonth": 505,
     "timeYear": 318,
     "dailyMinutesDown": {
-      "2026-09-11": 798,
+      "2026-09-11": 799,
       "2026-09-10": 1440,
       "2026-09-09": 1440,
       "2026-09-08": 1440,
@@ -240,7 +240,7 @@
     "timeYear": 341,
     "dailyMinutesDown": {
       "2026-04-30": 38,
-      "2026-09-11": 798,
+      "2026-09-11": 799,
       "2026-09-10": 1440,
       "2026-09-09": 1440,
       "2026-09-08": 1440,
@@ -403,18 +403,18 @@
     "icon": "https://arc.polydesk.app/favicon.ico",
     "slug": "arc",
     "status": "down",
-    "uptime": "14.13%",
-    "uptimeDay": "14.13%",
-    "uptimeWeek": "14.13%",
-    "uptimeMonth": "14.13%",
-    "uptimeYear": "14.13%",
+    "uptime": "10.44%",
+    "uptimeDay": "10.44%",
+    "uptimeWeek": "10.44%",
+    "uptimeMonth": "10.44%",
+    "uptimeYear": "10.44%",
     "time": 191,
     "timeDay": 191,
     "timeWeek": 191,
     "timeMonth": 191,
     "timeYear": 191,
     "dailyMinutesDown": {
-      "2026-09-11": 1
+      "2026-09-11": 2
     }
   },
   {
@@ -441,18 +441,18 @@
     "icon": "https://hubsalute.polydesk.app/favicon.ico",
     "slug": "hub-salute",
     "status": "down",
-    "uptime": "18.85%",
-    "uptimeDay": "18.85%",
-    "uptimeWeek": "18.85%",
-    "uptimeMonth": "18.85%",
-    "uptimeYear": "18.85%",
+    "uptime": "12.87%",
+    "uptimeDay": "12.87%",
+    "uptimeWeek": "12.87%",
+    "uptimeMonth": "12.87%",
+    "uptimeYear": "12.87%",
     "time": 682,
     "timeDay": 682,
     "timeWeek": 682,
     "timeMonth": 682,
     "timeYear": 682,
     "dailyMinutesDown": {
-      "2026-09-11": 1
+      "2026-09-11": 2
     }
   },
   {
@@ -483,7 +483,7 @@
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "64.79%",
+    "uptimeYear": "64.78%",
     "time": 272,
     "timeDay": 309,
     "timeWeek": 452,
@@ -491,7 +491,7 @@
     "timeYear": 246,
     "dailyMinutesDown": {
       "2026-04-30": 35,
-      "2026-09-11": 798,
+      "2026-09-11": 799,
       "2026-09-10": 1440,
       "2026-09-09": 1440,
       "2026-09-08": 1440,
