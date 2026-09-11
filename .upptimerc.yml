@@ -47,18 +47,35 @@ sites:
     expectedStatusCodes:
       - 404
       - 403
-  # butterfly
-  - name: Butterfly
-    icon: https://butterfly.polydesk.app/favicon.ico
-    url: https://butterfly.polydesk.app/
+  # arc
+  - name: Arc
+    icon: https://arc.polydesk.app/favicon.ico
+    url: https://arc.polydesk.app/
     headers:
       - "User-Agent: Polydesk uptime"
     expectedStatusCodes:
       - 404
       - 403
-  - name: Butterfly API
-    icon: https://butterfly.polydesk.app/favicon.ico
-    url: https://butterfly.polydesk.app/api/v1/
+  - name: Arc API
+    icon: https://arc.polydesk.app/favicon.ico
+    url: https://arc.polydesk.app/api/v1/
+    headers:
+      - "User-Agent: Polydesk uptime"
+    expectedStatusCodes:
+      - 404
+      - 403
+  # hub salute
+  - name: Hub Salute
+    icon: https://hubsalute.polydesk.app/favicon.ico
+    url: https://hubsalute.polydesk.app/
+    headers:
+      - "User-Agent: Polydesk uptime"
+    expectedStatusCodes:
+      - 404
+      - 403
+  - name: Hub Salute API
+    icon: https://hubsalute.polydesk.app/favicon.ico
+    url: https://hubsalute.polydesk.app/api/v1/
     headers:
       - "User-Agent: Polydesk uptime"
     expectedStatusCodes:

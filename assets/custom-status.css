@@ -1,7 +1,313 @@
+/* =========================================================
+   Polydesk status page — custom theme
+   Accent taken from the Polydesk app icon (#3fa0f5)
+   ========================================================= */
+
 :root {
-  --body-background-color: #0b1e30; /* Dark blue-ish background */
-  --body-text-color: #f0f8ff; /* Light text for contrast */
-  --card-background-color: #122b45; /* Slightly lighter for cards */
-  --nav-background-color: #122b45; /* Same as cards for consistency */
-  --nav-border-bottom-color: #339af0; /* Main theme color for accent */
+  /* Brand */
+  --pd-blue: #3fa0f5;
+  --pd-blue-soft: #6fbcff;
+  --pd-blue-dim: rgba(63, 160, 245, 0.16);
+
+  /* Surfaces */
+  --body-background-color: #0a1626;
+  --body-text-color: #e9f2fb;
+  --card-background-color: #101f34;
+  --card-border-color: #1d3352;
+  --nav-background-color: rgba(12, 26, 44, 0.85);
+  --nav-border-bottom-color: #1d3352;
+  --nav-current-border-bottom-color: var(--pd-blue);
+
+  /* Status colours */
+  --up-border-left-color: #2fd07f;
+  --degraded-border-left-color: #ffb020;
+  --down-border-left-color: #ff5470;
+  --down-background-color: #3a1220;
+  --down-color-color: inherit;
+  --degraded-color-color: inherit;
+  --up-color-color: inherit;
+
+  /* Tags */
+  --tag-color: #08131f;
+  --tag-up-background-color: #2fd07f;
+  --tag-down-background-color: #ff5470;
+  --tag-degraded-background-color: #ffb020;
+
+  /* Misc */
+  --change-background-color: var(--pd-blue-dim);
+  --code-color: #cfe6ff;
+  --code-background-color: #16293f;
+  --error-button-border-color: transparent;
+  --error-button-background-color: var(--pd-blue);
+  --error-button-color: #05101d;
+  --submit-button-border-color: transparent;
+  --submit-button-background-color: var(--pd-blue);
+  --submit-button-color: #05101d;
+  --graph-opacity: 0.9;
+  --graph-filter: saturate(1.1);
+}
+
+/* ---------- Page ---------- */
+
+body {
+  background-color: var(--body-background-color);
+  background-image:
+    radial-gradient(900px 480px at 50% -220px, rgba(63, 160, 245, 0.18), transparent 70%),
+    radial-gradient(600px 400px at 100% 0, rgba(63, 160, 245, 0.08), transparent 60%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Inter", Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+}
+
+main.container {
+  max-width: 880px;
+}
+
+h1 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+/* Section labels ("Live status" etc.) */
+h3 {
+  opacity: 1;
+  color: #8fa9c6;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+/* ---------- Nav ---------- */
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: saturate(160%) blur(12px);
+  -webkit-backdrop-filter: saturate(160%) blur(12px);
+  border-bottom: 1px solid var(--nav-border-bottom-color);
+  margin-bottom: 2.5rem;
+}
+
+nav .logo img {
+  height: 2.25rem;
+  border-radius: 0.65rem;
+  box-shadow: 0 3px 10px rgba(63, 160, 245, 0.28);
+}
+
+nav .logo div {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 1.05rem;
+}
+
+nav a:not(.logo) {
+  padding: 1.15rem 1rem;
+  color: #9fb6d0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
+
+nav a:not(.logo):hover {
+  color: var(--body-text-color);
+}
+
+nav [aria-current] {
+  color: var(--body-text-color) !important;
+  border-bottom: 2px solid var(--pd-blue);
+}
+
+/* ---------- Cards ---------- */
+
+article {
+  border-radius: 0.85rem;
+  border: 1px solid var(--card-border-color);
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+article + article {
+  margin-top: 0.7rem;
+}
+
+article:hover {
+  transform: translateY(-2px);
+  border-color: #2a4a75;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.38);
+}
+
+article.up,
+article.degraded,
+article.down {
+  border-left-width: 0.28rem;
+  border-left-style: solid;
+}
+
+article h4 {
+  font-weight: 650;
+  letter-spacing: -0.005em;
+}
+
+/* Client favicons next to the site name */
+.icon {
+  height: 1.15rem;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ---------- Tags / pills ---------- */
+
+.tag {
+  border-radius: 999px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ---------- Range selector (24h / 7d / 30d ...) ---------- */
+
+form.r label {
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  margin-left: 0.35rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: #9fb6d0;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+
+form.r label:hover {
+  color: var(--body-text-color);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+form.r input:checked + label {
+  background: var(--pd-blue);
+  color: #05101d;
+  font-weight: 700;
+}
+
+/* Uptime percentage — the theme flashes it via --change-background-color
+   when the selected range changes; keep that subtle. */
+.data {
+  border-radius: 0.4rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: #b9cde4;
+}
+
+/* ---------- Buttons ---------- */
+
+a.error-button,
+.submit-button {
+  border-radius: 0.55rem;
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+  transition: filter 0.18s ease, transform 0.18s ease;
+}
+
+a.error-button:hover,
+.submit-button:hover {
+  filter: brightness(1.08);
+  transform: translateY(-1px);
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--card-border-color);
+  color: #8fa9c6;
+  opacity: 1;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--pd-blue-soft);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Loading spinner ---------- */
+
+.loading svg {
+  stroke: var(--pd-blue) !important;
+}
+
+/* ---------- Light mode ---------- */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-background-color: #f4f8fd;
+    --body-text-color: #0e1c2c;
+    --card-background-color: #ffffff;
+    --card-border-color: #dce7f3;
+    --nav-background-color: rgba(255, 255, 255, 0.85);
+    --nav-border-bottom-color: #dce7f3;
+    --code-color: #0e1c2c;
+    --code-background-color: #eaf2fb;
+    --down-background-color: #ffe6ea;
+    --tag-color: #ffffff;
+    --graph-opacity: 1;
+  }
+
+  body {
+    background-image:
+      radial-gradient(900px 480px at 50% -240px, rgba(63, 160, 245, 0.16), transparent 70%);
+  }
+
+  h3 {
+    color: #5b7794;
+  }
+
+  nav a:not(.logo),
+  form.r label,
+  footer {
+    color: #52708f;
+  }
+
+  footer a {
+    color: #1a6fc4;
+  }
+
+  .data {
+    color: #44607e;
+  }
+
+  article:hover {
+    box-shadow: 0 10px 26px rgba(19, 51, 87, 0.12);
+  }
+}
+
+/* ---------- Motion preferences ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  article,
+  a.error-button,
+  .submit-button,
+  form.r label,
+  nav a:not(.logo) {
+    transition: none;
+  }
+
+  article:hover,
+  a.error-button:hover,
+  .submit-button:hover {
+    transform: none;
+  }
 }
