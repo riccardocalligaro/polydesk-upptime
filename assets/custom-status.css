@@ -99,6 +99,7 @@ nav {
 
 nav .logo img {
   height: 2.25rem;
+  width: auto;
   border-radius: 0.65rem;
   box-shadow: 0 3px 10px rgba(63, 160, 245, 0.28);
 }

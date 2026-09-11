@@ -130,5 +130,5 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.polydesk.app
   # baseUrl: /your-repo-name
-  logoUrl: https://polydesk.app/polydesk_cirlce.svg
+  logoUrl: https://status.polydesk.app/polydesk_logo.png
   name: Polydesk
